@@ -7,6 +7,12 @@ public class PersonajeVida : VidaBase
     public static Action EventoPersonajeDerrotado;
     public bool PuedeSerCurado => Salud < vida_max;
 
+    protected override void Start()
+    {
+        base.Start();
+        ActualizarVida(Salud,vida_max);
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.T))
@@ -45,6 +51,6 @@ public class PersonajeVida : VidaBase
 
     protected override void ActualizarVida(float vida_actual, float vida_maxima)
     {
-            
+            UIManager.Instance.ActualizarVidaPersonaje(vida_actual,vida_maxima);
     }
 }

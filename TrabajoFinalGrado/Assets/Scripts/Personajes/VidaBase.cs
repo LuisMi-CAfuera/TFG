@@ -8,7 +8,7 @@ public class VidaBase : MonoBehaviour
     [SerializeField] protected float vida_max;
     
     public float Salud { get; protected set; }
-    private void Start()
+    protected virtual void Start()
     {
         Salud=vida_inicial;
     }
