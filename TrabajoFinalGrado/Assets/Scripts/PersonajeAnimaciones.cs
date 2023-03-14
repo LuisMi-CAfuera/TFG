@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class PersonajeAnimaciones : MonoBehaviour
 
     private readonly int direccionX = Animator.StringToHash("X");
     private readonly int direccionY = Animator.StringToHash("Y");
+    private readonly int derrotado = Animator.StringToHash("Derrotado");
 
     private void Awake()
     {
@@ -50,5 +52,22 @@ public class PersonajeAnimaciones : MonoBehaviour
         {
             ActivarLayer(layerIdle);
         }
+    }
+
+    private void PersonajeDerrotadoRespuesta()
+    {
+        if (_animator.GetLayerWeight(_animator.GetLayerIndex(layerIdle)) == 1)
+        {
+            _animator.SetBool(derrotado, true);
+        }
+    }
+    private void OnEnable()
+    {
+        PersonajeVida.EventoPersonajeDerrotado += PersonajeDerrotadoRespuesta;
+    }
+
+    private void OnDisable()
+    {
+        PersonajeVida.EventoPersonajeDerrotado -= PersonajeDerrotadoRespuesta;
     }
 }

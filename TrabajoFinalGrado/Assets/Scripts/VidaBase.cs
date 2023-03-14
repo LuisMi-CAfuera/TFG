@@ -27,6 +27,7 @@ public class VidaBase : MonoBehaviour
             if (Salud <= 0f)
             {
                 ActualizarVida(Salud, vida_max);
+                Morir();
             }
         }
     }
