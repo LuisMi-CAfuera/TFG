@@ -38,6 +38,10 @@ public class PersonajeVida : VidaBase
 
     public void RestaurarVida(float cantidad)
     {
+        if (Derrotado)
+        {
+            return;
+        }
         if (PuedeSerCurado)
         {
             Salud += cantidad;
