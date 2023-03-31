@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e701e316-2e7b-4dd2-aec9-3639d09b4054" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Managers/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Managers/UIManager.cs" afterDir="false" />
     </list>
@@ -13,7 +14,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Extras/Singleton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Managers/UIManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Personajes/Personaje.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Personajes/PersonajeExperiencia.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Personajes/PersonajeMana.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Personajes/PersonajeStats.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Personajes/PersonajeVida.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Personajes/VidaBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -30,6 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -49,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671715454761</updated>
       <workItem from="1671715457254" duration="5000" />
-      <workItem from="1680276062755" duration="1561000" />
+      <workItem from="1680276062755" duration="5489000" />
     </task>
     <servers />
   </component>
