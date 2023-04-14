@@ -12,3 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a7809b2fe2f211458df7f8b10aef171, type: 3}
   m_Name: PersonajeStats
   m_EditorClassIdentifier: 
+  "Da\xF1o": 0
+  Defensa: 0
+  Velocidad: 0
+  Nivel: 5
+  ExpActual: 18
+  ExpRequerida: 32
+  PorcentajeCritico: 0
+  PorcentajeBloqueo: 0

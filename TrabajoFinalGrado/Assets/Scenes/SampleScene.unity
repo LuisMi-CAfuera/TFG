@@ -3687,6 +3687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f871aa3ae576094192260c0637c73ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 50fd7e79847af3e4dab9a0e963d4bb7c, type: 2}
   nivelMax: 20
   expBase: 2
   valorIncremental: 2
@@ -3719,12 +3720,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f244b74f3eaf267478b9821280b12ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 50fd7e79847af3e4dab9a0e963d4bb7c, type: 2}
+  panelStats: {fileID: 1046152047}
   vidaPlayer: {fileID: 719726607}
   manaPlayer: {fileID: 574896469}
   expPlayer: {fileID: 383964872}
   vidaTMP: {fileID: 694883028}
   manaTMP: {fileID: 1919400092}
   expTMP: {fileID: 1335408203}
+  "statDa\xF1oTMP": {fileID: 566331758}
+  statDefensaTMP: {fileID: 2022985310}
+  statCriticoTMP: {fileID: 744917930}
+  statBloqueoTMP: {fileID: 1814249606}
+  statVelocidadTMP: {fileID: 1634748853}
+  statNivelTMP: {fileID: 583398463}
+  statExpTMP: {fileID: 853954966}
+  statExpRequeridaTMP: {fileID: 1201874139}
 --- !u!4 &1533094303
 Transform:
   m_ObjectHideFlags: 0
