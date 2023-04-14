@@ -4,19 +4,25 @@ using UnityEngine;
 
 public class PersonajeExperiencia : MonoBehaviour
 {
+
+
+    [Header("Stats")] 
+    [SerializeField] private PersonajeStats stats;
+    
+    [Header("Config")]
     [SerializeField] private int nivelMax;
     [SerializeField] private int expBase;
     [SerializeField] private int valorIncremental;
-    
-    public int Nivel { get; private set; }
 
     private float expActual;
+    private float expActualTemp;
     private float expSiguienteNivel;
     // Start is called before the first frame update
     void Start()
     {
-        Nivel = 1;
+        stats.Nivel = 1;
         expSiguienteNivel = expBase;
+        stats.ExpRequerida = expSiguienteNivel;
         ActualizarBarraExperiencia();
     }
 
@@ -36,29 +42,35 @@ public class PersonajeExperiencia : MonoBehaviour
             if (expObtenida >= expRestanteNuevoNivel)
             {
                 expObtenida -= expRestanteNuevoNivel;
+                expActual += expObtenida;
                 ActualizarNivel();
                 AñadirExperiencia(expObtenida);
             }
             else
             {
                 expActual += expObtenida;
-                if (expActual == expSiguienteNivel)
+                expActualTemp += expObtenida;
+                if (expActualTemp == expSiguienteNivel)
                 {
                     ActualizarNivel();
+
                 }
             }
         }
-        
+
+        stats.ExpActual = expActual;
         ActualizarBarraExperiencia();
     }
 
     private void ActualizarNivel()
     {
-        if (Nivel < nivelMax)
+        if (stats.Nivel < nivelMax)
         {
-            Nivel++;
+            stats.Nivel++;
+            expActualTemp = 0f;
             expActual = 0f;
             expSiguienteNivel *= valorIncremental;
+            stats.ExpRequerida = expSiguienteNivel;
         }
     }
 

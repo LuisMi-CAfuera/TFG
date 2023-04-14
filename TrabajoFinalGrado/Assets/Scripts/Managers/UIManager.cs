@@ -7,6 +7,12 @@ using UnityEngine.UI;
 
 public class UIManager : Singleton<UIManager>
 {
+    [Header("Stats")]
+    [SerializeField] private PersonajeStats stats;
+
+    [Header("Paneles")]
+    [SerializeField] private GameObject panelStats;
+    
     [Header("Barra")]
     [SerializeField] private Image vidaPlayer;
     [SerializeField] private Image manaPlayer;
@@ -17,7 +23,19 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI vidaTMP;
     [SerializeField] private TextMeshProUGUI manaTMP;
     [SerializeField] private TextMeshProUGUI expTMP;
-    
+
+    [Header("Stats")] 
+    [SerializeField] private TextMeshProUGUI statDañoTMP;
+    [SerializeField] private TextMeshProUGUI statDefensaTMP;
+    [SerializeField] private TextMeshProUGUI statCriticoTMP;
+    [SerializeField] private TextMeshProUGUI statBloqueoTMP;
+    [SerializeField] private TextMeshProUGUI statVelocidadTMP;
+    [SerializeField] private TextMeshProUGUI statNivelTMP;
+    [SerializeField] private TextMeshProUGUI statExpTMP;
+    [SerializeField] private TextMeshProUGUI statExpRequeridaTMP;
+
+
+
 
     private float vidaActual;
     private float vidaMax;
@@ -38,7 +56,8 @@ public class UIManager : Singleton<UIManager>
     // Update is called once per frame
     void Update()
     {
-        ActualizarUIPersonaje();   
+        ActualizarUIPersonaje();  
+        ActualizarPanelStats();
     }
 
     private void ActualizarUIPersonaje()
@@ -52,6 +71,23 @@ public class UIManager : Singleton<UIManager>
         vidaTMP.text = $"{vidaActual}/{vidaMax}";
         manaTMP.text = $"{manaActual}/{manaMax}";
         expTMP.text = $"{((expActual/expRequerida) * 100):F2}%";
+    }
+
+    private void ActualizarPanelStats()
+    {
+        if (panelStats.activeSelf == false)
+        {
+            return;
+        }
+
+        statDañoTMP.text = stats.Daño.ToString();
+        statDefensaTMP.text = stats.Defensa.ToString();
+        statCriticoTMP.text = $"{stats.PorcentajeCritico}%";
+        statBloqueoTMP.text = $"{stats.PorcentajeBloqueo}%";
+        statVelocidadTMP.text = stats.Velocidad.ToString();
+        statNivelTMP.text = stats.Nivel.ToString();
+        statExpTMP.text = stats.ExpActual.ToString();
+        statExpRequeridaTMP.text = stats.ExpRequerida.ToString();
     }
 
     public void ActualizarVidaPersonaje(float pVidaActual, float pVidaMax)
