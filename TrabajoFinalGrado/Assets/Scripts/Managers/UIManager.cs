@@ -23,6 +23,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI vidaTMP;
     [SerializeField] private TextMeshProUGUI manaTMP;
     [SerializeField] private TextMeshProUGUI expTMP;
+    [SerializeField] private TextMeshProUGUI nivelTMP;
 
     [Header("Stats")] 
     [SerializeField] private TextMeshProUGUI statDañoTMP;
@@ -71,6 +72,7 @@ public class UIManager : Singleton<UIManager>
         vidaTMP.text = $"{vidaActual}/{vidaMax}";
         manaTMP.text = $"{manaActual}/{manaMax}";
         expTMP.text = $"{((expActual/expRequerida) * 100):F2}%";
+        nivelTMP.text = $"Nivel {stats.Nivel}";
     }
 
     private void ActualizarPanelStats()
