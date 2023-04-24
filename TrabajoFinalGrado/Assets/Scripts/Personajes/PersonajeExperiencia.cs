@@ -71,6 +71,7 @@ public class PersonajeExperiencia : MonoBehaviour
             expActual = 0f;
             expSiguienteNivel *= valorIncremental;
             stats.ExpRequerida = expSiguienteNivel;
+            stats.PuntosDisponibles += 3;
         }
     }
 

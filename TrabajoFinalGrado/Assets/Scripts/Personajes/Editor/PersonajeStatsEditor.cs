@@ -14,7 +14,7 @@ public class PersonajeStatsEditor : Editor
         base.OnInspectorGUI();
         if (GUILayout.Button("Reset Stats"))
         {
-            
+            StatsTarget.ResetearValores();
         }
     }
     
