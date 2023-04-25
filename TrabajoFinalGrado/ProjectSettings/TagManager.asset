@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Tilemap_suelo
+    uniqueID: 789924541
+    locked: 0
+  - name: Tilemap_Limite
+    uniqueID: 3852673937
+    locked: 0
+  - name: Tilemap_Casa
+    uniqueID: 4228678793
+    locked: 0
+  - name: Personaje
+    uniqueID: 520301987
+    locked: 0
