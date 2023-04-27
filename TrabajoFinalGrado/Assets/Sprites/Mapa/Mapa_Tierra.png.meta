@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mapa_Tierra_0
+      name: Desierto_Esquina_SUP_IZQ
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_1
+      name: Borde_SUP_Desierto
       rect:
         serializedVersion: 2
         x: 16
@@ -146,7 +146,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_2
+      name: Desierto_Esquina_SUP_DER
       rect:
         serializedVersion: 2
         x: 32
@@ -167,7 +167,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,7 +188,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,7 +209,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,7 +230,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,7 +251,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,7 +272,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,7 +293,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,7 +314,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -327,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_10
+      name: Borde_IZQ_Desierto
       rect:
         serializedVersion: 2
         x: 0
@@ -335,7 +335,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -348,7 +348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_11
+      name: Desierto_Medio
       rect:
         serializedVersion: 2
         x: 16
@@ -356,7 +356,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -369,7 +369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_12
+      name: Borde_DER_Desierto
       rect:
         serializedVersion: 2
         x: 32
@@ -377,7 +377,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -398,7 +398,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -419,7 +419,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -432,7 +432,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_15
+      name: Esquina_Interior_Desierto_SUP_IZQ
       rect:
         serializedVersion: 2
         x: 80
@@ -440,7 +440,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_16
+      name: Esquina_Interior_Desierto_SUP_DER
       rect:
         serializedVersion: 2
         x: 96
@@ -461,7 +461,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -482,7 +482,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -503,7 +503,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -524,7 +524,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -537,7 +537,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_20
+      name: Desierto_Esquina_INF_IZQ
       rect:
         serializedVersion: 2
         x: 0
@@ -545,7 +545,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -558,7 +558,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_21
+      name: Borde_INF_Desierto
       rect:
         serializedVersion: 2
         x: 16
@@ -566,7 +566,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -579,7 +579,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_22
+      name: Desierto_Esquina_INF_DER
       rect:
         serializedVersion: 2
         x: 32
@@ -587,7 +587,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -608,7 +608,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -629,7 +629,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -642,7 +642,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_25
+      name: Esquina_Interior_Desierto_INF_IZQ
       rect:
         serializedVersion: 2
         x: 80
@@ -650,7 +650,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -663,7 +663,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_26
+      name: Esquina_Interior_Desierto_INF_DER
       rect:
         serializedVersion: 2
         x: 96
@@ -671,7 +671,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -692,7 +692,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -713,7 +713,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -734,7 +734,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -755,7 +755,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -776,7 +776,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -797,7 +797,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -818,7 +818,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -839,7 +839,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -860,7 +860,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -881,7 +881,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -902,7 +902,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -923,7 +923,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -944,7 +944,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -965,7 +965,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -986,7 +986,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1007,7 +1007,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1028,7 +1028,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1049,7 +1049,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1070,7 +1070,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1091,7 +1091,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1112,7 +1112,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1133,7 +1133,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1154,7 +1154,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1175,7 +1175,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1196,7 +1196,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1217,7 +1217,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1238,7 +1238,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1259,7 +1259,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1280,7 +1280,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1301,7 +1301,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1322,7 +1322,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1343,7 +1343,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1364,7 +1364,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1377,7 +1377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_60
+      name: Tierra_Esquina_SUP_IZQ
       rect:
         serializedVersion: 2
         x: 0
@@ -1385,7 +1385,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1398,7 +1398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_61
+      name: Borde_Tierra_SUP
       rect:
         serializedVersion: 2
         x: 16
@@ -1406,7 +1406,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1419,7 +1419,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_62
+      name: Tierra_Esquina_SUP_DER
       rect:
         serializedVersion: 2
         x: 32
@@ -1427,7 +1427,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1448,7 +1448,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1469,7 +1469,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1490,7 +1490,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1511,7 +1511,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1532,7 +1532,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1553,7 +1553,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1574,7 +1574,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1587,7 +1587,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_70
+      name: Borde_Tierra_IZQ
       rect:
         serializedVersion: 2
         x: 0
@@ -1595,7 +1595,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1608,7 +1608,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_71
+      name: Tierra_Medio
       rect:
         serializedVersion: 2
         x: 16
@@ -1616,7 +1616,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1629,7 +1629,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_72
+      name: Borde_Tierra_DER
       rect:
         serializedVersion: 2
         x: 32
@@ -1637,7 +1637,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1658,7 +1658,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1679,7 +1679,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1692,7 +1692,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_75
+      name: Esquina_Interior_Tierra_SUP_IZQ
       rect:
         serializedVersion: 2
         x: 80
@@ -1700,7 +1700,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1713,7 +1713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_76
+      name: Esquina_Interior_Tierra_SUP_DER
       rect:
         serializedVersion: 2
         x: 96
@@ -1721,7 +1721,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1742,7 +1742,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1763,7 +1763,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1784,7 +1784,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1797,7 +1797,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_80
+      name: Tierra_Esquina_INF_IZQ
       rect:
         serializedVersion: 2
         x: 0
@@ -1805,7 +1805,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1818,7 +1818,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_81
+      name: Borde_Tierra_INF
       rect:
         serializedVersion: 2
         x: 16
@@ -1826,7 +1826,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1839,7 +1839,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_82
+      name: Tierra_Esquina_INF_DER
       rect:
         serializedVersion: 2
         x: 32
@@ -1847,7 +1847,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1868,7 +1868,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1889,7 +1889,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1902,7 +1902,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_85
+      name: Esquina_Interior_Tierra_INF_IZQ
       rect:
         serializedVersion: 2
         x: 80
@@ -1910,7 +1910,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1923,7 +1923,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mapa_Tierra_86
+      name: Esquina_Interior_Tierra_INF_DER
       rect:
         serializedVersion: 2
         x: 96
@@ -1931,7 +1931,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1952,7 +1952,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1973,7 +1973,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1994,7 +1994,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2015,7 +2015,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2036,7 +2036,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2057,7 +2057,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2078,7 +2078,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2099,7 +2099,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2120,7 +2120,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2141,7 +2141,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2162,7 +2162,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2183,7 +2183,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2204,7 +2204,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2225,7 +2225,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2246,7 +2246,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2267,7 +2267,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2288,7 +2288,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2309,7 +2309,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2330,7 +2330,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2351,7 +2351,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2372,7 +2372,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2393,7 +2393,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2414,7 +2414,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2435,7 +2435,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2456,7 +2456,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2477,7 +2477,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2498,7 +2498,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2519,7 +2519,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2540,7 +2540,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2563,122 +2563,122 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mapa_Tierra_70: -1799703937
       Mapa_Tierra_105: 412766803
       Mapa_Tierra_3: -892527455
+      Esquina_Interior_Tierra_INF_IZQ: -1424059176
       Mapa_Tierra_27: 2021561573
       Mapa_Tierra_24: 1932746019
       Mapa_Tierra_89: 1562079682
-      Mapa_Tierra_33: 1328659623
-      Mapa_Tierra_11: 1741621079
-      Mapa_Tierra_6: -868003492
-      Mapa_Tierra_4: -2011807220
-      Mapa_Tierra_107: 1913676326
-      Mapa_Tierra_86: 1391627554
-      Mapa_Tierra_93: 536712143
-      Mapa_Tierra_10: 1681660358
-      Mapa_Tierra_57: -572266746
-      Mapa_Tierra_85: -1424059176
-      Mapa_Tierra_43: -1150059652
-      Mapa_Tierra_17: -697608884
-      Mapa_Tierra_68: 510533800
-      Mapa_Tierra_40: 466588290
-      Mapa_Tierra_66: -1680911851
-      Mapa_Tierra_75: 610261046
-      Mapa_Tierra_14: -2006426400
-      Mapa_Tierra_16: 861639945
-      Mapa_Tierra_100: 637049010
-      Mapa_Tierra_95: -1944912141
-      Mapa_Tierra_46: 1999355186
-      Mapa_Tierra_97: -1670106097
-      Mapa_Tierra_65: 1071392233
-      Mapa_Tierra_7: 708538576
-      Mapa_Tierra_28: 318030026
-      Mapa_Tierra_87: 1562021734
-      Mapa_Tierra_19: 1889763332
-      Mapa_Tierra_23: 2037065449
-      Mapa_Tierra_39: -195341169
-      Mapa_Tierra_76: 1321168834
-      Mapa_Tierra_71: 176482131
-      Mapa_Tierra_34: -1183232530
-      Mapa_Tierra_36: -1264048305
-      Mapa_Tierra_35: -1815418843
-      Pasto_4: -1054776309
-      Mapa_Tierra_18: 522101693
-      Mapa_Tierra_108: -685667334
-      Mapa_Tierra_31: 980860124
-      Mapa_Tierra_74: -1407474049
-      Mapa_Tierra_64: 1859133385
-      Mapa_Tierra_104: -1212957653
-      Mapa_Tierra_81: -752534001
-      Mapa_Tierra_2: -177999234
-      Mapa_Tierra_37: 763263224
-      Mapa_Tierra_78: -1386565250
-      Mapa_Tierra_98: 1901064298
-      Mapa_Tierra_55: 1124758740
-      Mapa_Tierra_80: -1873443042
-      Mapa_Tierra_59: 2096981556
-      Mapa_Tierra_82: 1215788916
-      Mapa_Tierra_61: 258707917
-      Mapa_Tierra_83: 60923684
-      Mapa_Tierra_67: -1173175476
-      Mapa_Tierra_41: -1598213092
-      Mapa_Tierra_114: 1924327101
-      Mapa_Tierra_102: 1892894197
-      Mapa_Tierra_13: 144727052
-      Mapa_Tierra_44: 479172831
-      Mapa_Tierra_9: -619440812
-      Mapa_Tierra_20: 925132549
-      Mapa_Tierra_30: -23370253
-      Mapa_Tierra_109: 1432268849
-      Mapa_Tierra_94: 2040742153
-      Mapa_Tierra_110: -1338864144
-      Mapa_Tierra_22: 1013327751
-      Mapa_Tierra_56: 2039530745
-      Mapa_Tierra_25: -941053367
-      Pasto_2: 880807506
-      Mapa_Tierra_54: -15816694
-      Mapa_Tierra_51: 534216969
-      Mapa_Tierra_50: 1379893590
-      Mapa_Tierra_5: 295700025
-      Mapa_Tierra_12: 734012689
-      Mapa_Tierra_29: -1862432921
-      Mapa_Tierra_8: -609013201
-      Mapa_Tierra_92: -2112561215
-      Mapa_Tierra_60: -914995827
-      Mapa_Tierra_91: -704988777
-      Mapa_Tierra_96: -994978238
-      Mapa_Tierra_45: 1354623421
-      Mapa_Tierra_58: 1129631970
-      Mapa_Tierra_72: 343680740
-      Mapa_Tierra_47: -860666352
-      Mapa_Tierra_21: 1161239563
-      Mapa_Tierra_1: -993842868
-      Mapa_Tierra_103: 1741945305
-      Mapa_Tierra_79: 40878516
-      Mapa_Tierra_88: 1183963316
-      Mapa_Tierra_38: 358615742
-      Mapa_Tierra_62: -1912978408
-      Mapa_Tierra_32: -673946085
-      Mapa_Tierra_77: -844384093
-      Mapa_Tierra_49: 1507155854
-      Mapa_Tierra_52: 1167046230
-      Mapa_Tierra_63: 1394358009
-      Mapa_Tierra_53: 354621341
-      Mapa_Tierra_48: -461719729
-      Mapa_Tierra_0: 169306779
-      Mapa_Tierra_42: -169255197
-      Pasto_3: -1329423808
-      Mapa_Tierra_99: 2126488328
-      Mapa_Tierra_26: 1793538084
-      Mapa_Tierra_73: 938906911
-      Mapa_Tierra_69: 1012131622
-      Mapa_Tierra_84: 1487957867
-      Mapa_Tierra_15: 1486023597
-      Mapa_Tierra_101: 858541663
-      Mapa_Tierra_106: 905096667
-      Mapa_Tierra_90: -2000946660
-      Pasto_1: 1232132060
+      Mapa_Tierra_33: 1741621079
+      Borde_DER_Desierto: 734012689
+      Mapa_Tierra_6: -2011807220
+      Mapa_Tierra_4: 1913676326
+      Mapa_Tierra_107: 1391627554
+      Esquina_Interior_Tierra_SUP_IZQ: 610261046
+      Mapa_Tierra_93: 1681660358
+      Desierto_Esquina_INF_IZQ: 925132549
+      Desierto_Esquina_SUP_IZQ: -177999234
+      Mapa_Tierra_57: -1424059176
+      Tierra_Esquina_INF_DER: 1215788916
+      Tierra_Medio: 176482131
+      Tierra_Esquina_INF_IZQ: -1873443042
+      Mapa_Tierra_43: -697608884
+      Mapa_Tierra_17: 510533800
+      Esquina_Interior_Tierra_SUP_DER: 1321168834
+      Mapa_Tierra_68: 466588290
+      Mapa_Tierra_40: -1680911851
+      Mapa_Tierra_66: 610261046
+      Mapa_Tierra_95: 1999355186
+      Mapa_Tierra_14: 861639945
+      Mapa_Tierra_100: -1944912141
+      Mapa_Tierra_46: -1670106097
+      Mapa_Tierra_97: 1071392233
+      Mapa_Tierra_65: 708538576
+      Mapa_Tierra_7: 318030026
+      Mapa_Tierra_28: 1562021734
+      Mapa_Tierra_87: 1889763332
+      Mapa_Tierra_19: 1321168834
+      Mapa_Tierra_23: -195341169
+      Mapa_Tierra_39: 176482131
+      Borde_Tierra_INF: -752534001
+      Mapa_Tierra_34: -1264048305
+      Mapa_Tierra_36: -1815418843
+      Borde_SUP_Desierto: 1161239563
+      Mapa_Tierra_35: -1054776309
+      Pasto_4: 522101693
+      Mapa_Tierra_18: -685667334
+      Mapa_Tierra_108: 980860124
+      Mapa_Tierra_31: -1407474049
+      Mapa_Tierra_74: 1859133385
+      Mapa_Tierra_64: -1212957653
+      Mapa_Tierra_104: -752534001
+      Esquina_Interior_Tierra_INF_DER: 1391627554
+      Mapa_Tierra_37: -1386565250
+      Mapa_Tierra_78: 1901064298
+      Mapa_Tierra_98: 1124758740
+      Mapa_Tierra_55: -1873443042
+      Desierto_Esquina_INF_DER: 1328659623
+      Mapa_Tierra_59: 1215788916
+      Mapa_Tierra_83: -1173175476
+      Esquina_Interior_Desierto_INF_IZQ: -941053367
+      Mapa_Tierra_67: -1598213092
+      Mapa_Tierra_41: 1924327101
+      Mapa_Tierra_114: 1892894197
+      Mapa_Tierra_102: 144727052
+      Esquina_Interior_Desierto_INF_DER: 1793538084
+      Mapa_Tierra_13: 479172831
+      Tierra_Esquina_SUP_DER: -1912978408
+      Borde_Tierra_SUP: 258707917
+      Mapa_Tierra_44: -619440812
+      Mapa_Tierra_9: 925132549
+      Mapa_Tierra_30: 1432268849
+      Borde_Tierra_DER: 343680740
+      Mapa_Tierra_109: 2040742153
+      Esquina_Interior_Desierto_SUP_DER: 861639945
+      Mapa_Tierra_94: -1338864144
+      Mapa_Tierra_110: 1013327751
+      Mapa_Tierra_56: -941053367
+      Pasto_2: -15816694
+      Mapa_Tierra_54: 534216969
+      Mapa_Tierra_51: 1379893590
+      Mapa_Tierra_50: 295700025
+      Desierto_Esquina_SUP_DER: 1328659623
+      Mapa_Tierra_5: -1862432921
+      Mapa_Tierra_29: 734012689
+      Mapa_Tierra_8: -2112561215
+      Esquina_Interior_Desierto_SUP_IZQ: 1486023597
+      Mapa_Tierra_92: -914995827
+      Tierra_Esquina_SUP_IZQ: -914995827
+      Mapa_Tierra_91: -994978238
+      Mapa_Tierra_96: 1354623421
+      Mapa_Tierra_45: 1129631970
+      Mapa_Tierra_58: 343680740
+      Borde_Tierra_IZQ: -1799703937
+      Mapa_Tierra_47: 1161239563
+      Borde_IZQ_Desierto: 1681660358
+      Mapa_Tierra_103: 40878516
+      Desierto_Medio: 1741621079
+      Mapa_Tierra_79: 1183963316
+      Mapa_Tierra_88: 358615742
+      Mapa_Tierra_38: -1912978408
+      Mapa_Tierra_32: -844384093
+      Mapa_Tierra_77: 1507155854
+      Mapa_Tierra_49: 1167046230
+      Mapa_Tierra_52: 1394358009
+      Mapa_Tierra_63: 354621341
+      Mapa_Tierra_53: -461719729
+      Mapa_Tierra_48: -169255197
+      Borde_INF_Desierto: 734012689
+      Mapa_Tierra_42: -1329423808
+      Pasto_3: 2126488328
+      Mapa_Tierra_99: 1793538084
+      Mapa_Tierra_73: 1012131622
+      Mapa_Tierra_69: 1487957867
+      Mapa_Tierra_84: 1486023597
+      Mapa_Tierra_101: 905096667
+      Mapa_Tierra_106: -2000946660
+      Mapa_Tierra_90: 1232132060
+      Pasto_1: 169306779
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -47,8 +47,14 @@ TagManager:
   - name: Tilemap_Limite
     uniqueID: 3852673937
     locked: 0
+  - name: Tilemap_Arboles
+    uniqueID: 185310511
+    locked: 0
   - name: Tilemap_Casa
     uniqueID: 4228678793
+    locked: 0
+  - name: Tilemaps_PRops
+    uniqueID: 3739967839
     locked: 0
   - name: Personaje
     uniqueID: 520301987
