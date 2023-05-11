@@ -3389,6 +3389,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28cc5f4bf6965bb44a7814c03d3c5edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelInvDescripcion: {fileID: 784605239}
+  itemIcono: {fileID: 90784097}
+  itemNombre: {fileID: 1845861455}
+  itemDescripcion: {fileID: 1088054478}
   slotPrefab: {fileID: 2781349852724572345, guid: 146d6fcbc5594c54a93332c96ca173d7, type: 3}
   contenedor: {fileID: 1034673448}
 --- !u!114 &300458099
@@ -3403,8 +3407,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae1afc8f6b8a91440894b186dbce8e56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numero_slots: 24
   itemsInventario: []
+  personaje: {fileID: 1407810310}
+  numero_slots: 24
 --- !u!4 &300458100
 Transform:
   m_ObjectHideFlags: 0
@@ -63596,7 +63601,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 352321288}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 300458098}
+        m_TargetAssemblyTypeName: InventarioUI, Assembly-CSharp
+        m_MethodName: UsarItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &352321288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66584,7 +66601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &784605240
 RectTransform:
   m_ObjectHideFlags: 0
@@ -68810,7 +68827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pocion de vida
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -76034,7 +76051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pocion de vida
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -78578,11 +78595,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5090363556924738720, guid: 25d936b9a3ad43b4abe9219084c363a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.798
+      value: -5.792
       objectReference: {fileID: 0}
     - target: {fileID: 5090363556924738720, guid: 25d936b9a3ad43b4abe9219084c363a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.599
+      value: -1.85
       objectReference: {fileID: 0}
     - target: {fileID: 5090363556924738720, guid: 25d936b9a3ad43b4abe9219084c363a5, type: 3}
       propertyPath: m_LocalPosition.z
