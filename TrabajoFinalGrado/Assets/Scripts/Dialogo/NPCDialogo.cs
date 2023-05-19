@@ -15,8 +15,8 @@ public class NPCDialogo : ScriptableObject
 {
     [Header("Info")] public string Nombre;
     public Sprite imagen;
-    public bool InteraccionExtra;
-    public InteracccionExtra interacccionExtra;
+    public bool ContieneInteraccionExtra;
+    public InteracccionExtra interaccionExtra;
 
 
     [Header("Saludo")] 

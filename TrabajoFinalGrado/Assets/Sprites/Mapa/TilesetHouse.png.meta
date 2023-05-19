@@ -608,7 +608,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -629,7 +629,7 @@ TextureImporter:
         width: 12
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -650,7 +650,7 @@ TextureImporter:
         width: 32
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -671,7 +671,7 @@ TextureImporter:
         width: 32
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -679,6 +679,48 @@ TextureImporter:
       bones: []
       spriteID: ec728f487c407d247a8c4ee5da178b3a
       internalID: 254309311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetHouse_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 321
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a428819a88b74391fd7809785bff8
+      internalID: -1612200216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetHouse_28
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 320
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af89973fad92664fa41671e0e0cbd3e
+      internalID: -831350236
       vertices: []
       indices: 
       edges: []
@@ -706,9 +748,11 @@ TextureImporter:
       TilesetHouse_6: 793510339
       TilesetHouse_9: -273317544
       TilesetHouse_11: 1267117134
+      TilesetHouse_27: -1612200216
       TilesetHouse_17: 1829809779
       TilesetHouse_20: 1775479384
       TilesetHouse_19: -1000683779
+      TilesetHouse_28: -831350236
       TilesetHouse_8: -1760885239
       TilesetHouse_24: -2031076287
       TilesetHouse_3: -1106332376

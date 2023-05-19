@@ -17,6 +17,7 @@ public class DialogoManager : Singleton<DialogoManager>
 
     private Queue<string> dialogosSecuencias;
     private bool dialogoAnimado;
+    private bool despediaMostar;
 
     private void Start()
     {
@@ -33,6 +34,28 @@ public class DialogoManager : Singleton<DialogoManager>
         if (Input.GetKeyDown(KeyCode.E))
         {
             ConfigurarPanel(NPCDisponible.Dialogo);
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (despediaMostar)
+            {
+                AbrirCerrarPanelDialogo(false);
+                despediaMostar = false;
+                return;
+            }
+            
+            if(NPCDisponible.Dialogo.ContieneInteraccionExtra)
+            {
+               UIManager.Instance.AbrirPanelInteraccion(NPCDisponible.Dialogo.interaccionExtra);
+               AbrirCerrarPanelDialogo(false);
+                return;
+            }
+            if (dialogoAnimado)
+            {
+                Continuar();
+            }
         }
     }
 
@@ -64,6 +87,31 @@ public class DialogoManager : Singleton<DialogoManager>
         {
             dialogosSecuencias.Enqueue(npcDialogo.Conversacion[i].Frases);
         }
+    }
+
+// PAra continuar el dialogo
+    private void Continuar()
+    {
+        if (NPCDisponible == null)
+        {
+            return;
+        }
+
+        if (despediaMostar)
+        {
+            return;
+        }
+        
+        if(dialogosSecuencias.Count == 0)
+        {
+            string despedida = NPCDisponible.Dialogo.Despedida;
+            MostrarTextoAnimado(despedida);
+            despediaMostar = true;
+            return;
+        }
+        
+        string sigDialogo = dialogosSecuencias.Dequeue();
+        MostrarTextoAnimado(sigDialogo);
     }
 
 
