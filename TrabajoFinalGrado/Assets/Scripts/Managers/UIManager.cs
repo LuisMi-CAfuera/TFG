@@ -14,6 +14,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private GameObject panelStats;
     [SerializeField] private GameObject panelInventario;
     [SerializeField] private GameObject panelQuest;
+    [SerializeField] private GameObject panelPersonajeQuest;
     
     [Header("Barra")]
     [SerializeField] private Image vidaPlayer;
@@ -131,6 +132,11 @@ public class UIManager : Singleton<UIManager>
     public void AbrirCerrarPanelInventario()
     {
         panelInventario.SetActive(!panelInventario.activeSelf);
+    }
+    
+    public void AbrirCerrarPanelPersonajeQuest()
+    {
+        panelPersonajeQuest.SetActive(!panelPersonajeQuest.activeSelf);
     }
     
     public void AbrirCerrarPanelQuest()
