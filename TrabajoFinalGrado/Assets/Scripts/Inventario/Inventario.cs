@@ -16,6 +16,7 @@ public class Inventario : Singleton<Inventario>
     public Personaje Personaje => personaje;
     public int NumeroSlots => numero_slots;
     public InventarioItem[] ItemsInventario => itemsInventario;
+   
 
 
     private void Start()

@@ -14,9 +14,9 @@ public class PersonajeExperiencia : MonoBehaviour
     [SerializeField] private int expBase;
     [SerializeField] private int valorIncremental;
 
-    private float expActual;
+    public float expActual;
     private float expActualTemp;
-    private float expSiguienteNivel;
+    public float expSiguienteNivel;
     // Start is called before the first frame update
     void Start()
     {

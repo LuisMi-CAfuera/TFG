@@ -6,10 +6,10 @@ public class PersonajeMana : MonoBehaviour
 {
     
     [SerializeField] private float manaInicial;
-    [SerializeField] private float manaMaximo;
+    [SerializeField] public float manaMaximo;
     [SerializeField] private float regeneracionPorSegundo;
 
-    public float ManaActual { get; private set; }
+    public float ManaActual { get;  set; }
     
     public bool PuedeRestauar => ManaActual < manaMaximo;
 

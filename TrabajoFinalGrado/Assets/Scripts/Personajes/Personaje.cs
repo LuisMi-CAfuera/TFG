@@ -5,15 +5,18 @@ public class Personaje:MonoBehaviour
 {
 
         [SerializeField] private PersonajeStats stats;
-        public PersonajeVida PersonajeVida { get; private set; }
-        public PersonajeAnimaciones PersonajeAnimaciones { get; private set; }
-        public PersonajeMana PersonajeMana { get; private set; }
+        
+        public PersonajeExperiencia PersonajeExperiencia { get; set; }
+        public PersonajeVida PersonajeVida { get; set; }
+        public PersonajeAnimaciones PersonajeAnimaciones { get;  set; }
+        public PersonajeMana PersonajeMana { get; set; }
 
         private void Awake()
         {
                 PersonajeVida = GetComponent<PersonajeVida>();
                 PersonajeAnimaciones = GetComponent<PersonajeAnimaciones>();
                 PersonajeMana = GetComponent<PersonajeMana>();
+                PersonajeExperiencia = GetComponent<PersonajeExperiencia>();
         }
 
         public void RestaurarPersonaje()
