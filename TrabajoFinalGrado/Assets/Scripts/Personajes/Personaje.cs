@@ -4,7 +4,7 @@ using UnityEngine;
 public class Personaje:MonoBehaviour
 {
 
-        [SerializeField] private PersonajeStats stats;
+        [SerializeField] public PersonajeStats stats;
         
         public PersonajeExperiencia PersonajeExperiencia { get; set; }
         public PersonajeVida PersonajeVida { get; set; }

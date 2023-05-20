@@ -75579,7 +75579,18 @@ MonoBehaviour:
     vida: 0
     mana: 0
     experiencia: 0
-    inventario: {fileID: 300458099}
+    nivel: 0
+    expActual: 0
+    expRequerida: 0
+    fuerza: 0
+    inteligencia: 0
+    destreza: 0
+    puntosDisponibles: 0
+    "da\xF1o": 0
+    defensa: 0
+    velocidad: 0
+    porcentajeCritico: 0
+    porcentajeBloqueo: 0
 --- !u!4 &1256474624
 Transform:
   m_ObjectHideFlags: 0

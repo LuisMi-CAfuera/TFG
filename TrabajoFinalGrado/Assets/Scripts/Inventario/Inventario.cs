@@ -8,7 +8,7 @@ public class Inventario : Singleton<Inventario>
 {
     
     [Header("Items")] 
-    [SerializeField] private InventarioItem[] itemsInventario;
+    [SerializeField] public InventarioItem[] itemsInventario;
     [SerializeField] private Personaje personaje;
     [SerializeField] private int numero_slots;
     
@@ -16,7 +16,8 @@ public class Inventario : Singleton<Inventario>
     public Personaje Personaje => personaje;
     public int NumeroSlots => numero_slots;
     public InventarioItem[] ItemsInventario => itemsInventario;
-   
+    
+
 
 
     private void Start()

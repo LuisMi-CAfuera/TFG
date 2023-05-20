@@ -10,7 +10,24 @@ public class DatosJuego
     public float vida;
     public float mana;
     public float experiencia;
-
-    public Inventario inventario;
+    
+    //nivel 
+    public float nivel;
+    public float expActual;
+    public float expRequerida;
+    //atributos
+    public float fuerza;
+    public float inteligencia;
+    public float destreza;
+    //puntos disponibles
+    public int puntosDisponibles;
+    //stats
+    public float daño;
+    public float defensa;
+    public float velocidad;
+    public float porcentajeCritico;
+    public float porcentajeBloqueo;
+    //inventario
+    
 
 }

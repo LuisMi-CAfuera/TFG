@@ -84,7 +84,7 @@ public class UIManager : Singleton<UIManager>
         cantidadMonedasTMP.text = MonedaManager.Instance.MonedasTotales.ToString();
     }
 
-    private void ActualizarPanelStats()
+    public void ActualizarPanelStats()
     {
         if (panelStats.activeSelf == false)
         {

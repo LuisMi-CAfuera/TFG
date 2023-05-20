@@ -55,6 +55,39 @@ public class ControladorDatosJuego : MonoBehaviour
             //experiencia
             jugador.GetComponent<PersonajeExperiencia>().expActual = datosJuego.experiencia;
             UIManager.Instance.ActualizarExpPersonaje(datosJuego.experiencia, jugador.GetComponent<PersonajeExperiencia>().expSiguienteNivel);
+            //nivel
+            jugador.GetComponent<Personaje>().stats.Nivel = datosJuego.nivel;
+            //expActual
+            jugador.GetComponent<Personaje>().stats.ExpActual = datosJuego.expActual;
+            //expRequerida
+            jugador.GetComponent<Personaje>().stats.ExpRequerida = datosJuego.expRequerida;
+            //fuerza
+            jugador.GetComponent<Personaje>().stats.Fuerza = datosJuego.fuerza;
+            //inteligencia
+            jugador.GetComponent<Personaje>().stats.Inteligencia = datosJuego.inteligencia;
+            //destreza
+            jugador.GetComponent<Personaje>().stats.Destreza = datosJuego.destreza;
+            //puntosDisponibles
+            jugador.GetComponent<Personaje>().stats.PuntosDisponibles = datosJuego.puntosDisponibles;
+            //daño
+            jugador.GetComponent<Personaje>().stats.Daño = datosJuego.daño;
+            //defensa
+            jugador.GetComponent<Personaje>().stats.Defensa = datosJuego.defensa;
+            //velocidad
+            jugador.GetComponent<Personaje>().stats.Velocidad = datosJuego.velocidad;
+            //porcentajeCritico
+            jugador.GetComponent<Personaje>().stats.PorcentajeCritico = datosJuego.porcentajeCritico;
+            //porcentajeBloqueo
+            jugador.GetComponent<Personaje>().stats.PorcentajeBloqueo = datosJuego.porcentajeBloqueo;
+            
+            UIManager.Instance.ActualizarPanelStats();
+            
+            //inventario
+            
+            
+            
+
+
         }
         else
         {
@@ -70,6 +103,28 @@ public class ControladorDatosJuego : MonoBehaviour
             vida = jugador.GetComponent<VidaBase>().Salud,
             mana = jugador.GetComponent<PersonajeMana>().ManaActual,
             experiencia = jugador.GetComponent<PersonajeExperiencia>().expActual,
+            //nivel
+            nivel = jugador.GetComponent<Personaje>().stats.Nivel,
+            expActual = jugador.GetComponent<Personaje>().stats.ExpActual,
+            expRequerida = jugador.GetComponent<Personaje>().stats.ExpRequerida,
+            //atributos
+            fuerza = jugador.GetComponent<Personaje>().stats.Fuerza,
+            inteligencia = jugador.GetComponent<Personaje>().stats.Inteligencia,
+            destreza = jugador.GetComponent<Personaje>().stats.Destreza,
+            //puntos disponibles
+            puntosDisponibles = jugador.GetComponent<Personaje>().stats.PuntosDisponibles,
+            //stats
+            daño = jugador.GetComponent<Personaje>().stats.Daño,
+            defensa = jugador.GetComponent<Personaje>().stats.Defensa,
+            velocidad = jugador.GetComponent<Personaje>().stats.Velocidad,
+            porcentajeCritico = jugador.GetComponent<Personaje>().stats.PorcentajeCritico,
+            porcentajeBloqueo = jugador.GetComponent<Personaje>().stats.PorcentajeBloqueo,
+            //inventario
+            
+            
+            
+
+
         };
         
         string cadenaJson = JsonUtility.ToJson(nuevoDatosJuego);
