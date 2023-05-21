@@ -15,7 +15,7 @@ public class ControladorDatosJuego : Singleton<ControladorDatosJuego>
     public DatosJuego datosJuego = new DatosJuego();
     public List<InventarioItem> itemsGuardados = new List<InventarioItem>();
 
-    private void Awake()
+    protected override void Awake()
     {
         archivhoGuardado = Application.dataPath + "/datosJuego.json";
         
@@ -94,17 +94,14 @@ public class ControladorDatosJuego : Singleton<ControladorDatosJuego>
                     
                     if (item != null)
                     {
+                        
                         Debug.Log("Inventario cargado:"+item.Nombre+" Cantidad: "+item.Cantidad);
                         Inventario.Instance.AñadirItem(item, item.Cantidad);
                     }
                 }
                 
             }
-            
-            
-            
-            
-            
+
         }
         else
         {
@@ -114,17 +111,8 @@ public class ControladorDatosJuego : Singleton<ControladorDatosJuego>
     
     public void AgregarObjetoGuardado(InventarioItem objeto,int cantidad)
     {
-        if(cantidad < objeto.AcumulacionMax)
-        {
-            objeto.Cantidad = cantidad;
-            itemsGuardados.Add(objeto);
-        }else if (cantidad > objeto.AcumulacionMax)
-        {
-            objeto.Cantidad = objeto.AcumulacionMax;
-            itemsGuardados.Add(objeto);
-            cantidad -= objeto.AcumulacionMax;
-        }
-        
+        Debug.Log("Objeto: " + objeto.Nombre + " Cantidad: " + objeto.Cantidad);
+        itemsGuardados.Add(objeto);
     }
     
     private void GuardarDatos()
@@ -160,6 +148,8 @@ public class ControladorDatosJuego : Singleton<ControladorDatosJuego>
             porcentajeBloqueo = jugador.GetComponent<Personaje>().stats.PorcentajeBloqueo,
             //Inventairio
             items = itemsGuardados.ToArray(),
+            
+            
 
 
         };

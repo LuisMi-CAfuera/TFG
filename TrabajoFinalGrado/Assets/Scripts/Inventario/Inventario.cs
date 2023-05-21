@@ -30,8 +30,9 @@ public class Inventario : Singleton<Inventario>
         if (itemAñadir == null)
         {
             return;
-        }   
-        ControladorDatosJuego.Instance.AgregarObjetoGuardado(itemAñadir,cantidad);
+        }
+        ControladorDatosJuego.Instance.AgregarObjetoGuardado(itemAñadir, cantidad);
+        
         //Verificacion por si acaso el item ya existe en el inventario
         List<int> indexes = VerificarExistencias(itemAñadir.ID);
 
@@ -44,6 +45,7 @@ public class Inventario : Singleton<Inventario>
                     if (itemsInventario[indexes[i]].Cantidad < itemAñadir.AcumulacionMax)
                     {
                         itemsInventario[indexes[i]].Cantidad += cantidad;
+                        
                         if (itemsInventario[indexes[i]].Cantidad > itemAñadir.AcumulacionMax)
                         {
                             int diferencia = itemsInventario[indexes[i]].Cantidad - itemAñadir.AcumulacionMax;
@@ -68,6 +70,7 @@ public class Inventario : Singleton<Inventario>
             AñadirItemEnSlotDisponible(itemAñadir, itemAñadir.AcumulacionMax);
             cantidad -= itemAñadir.AcumulacionMax;
             AñadirItem(itemAñadir, cantidad);
+
         }
         else
         {

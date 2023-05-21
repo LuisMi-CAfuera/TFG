@@ -37,14 +37,10 @@ public class PersonajeMovimiento : MonoBehaviour
             return;
         }
         
-
         _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-
         //X
-       
-            
         
-            if ( _input.x > 0.1f)
+            if (_input.x > 0.1f)
             {
                 _direcciondeMovimiento.x = 1f;
             }
