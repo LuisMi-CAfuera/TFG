@@ -8,7 +8,7 @@ public class Inventario : Singleton<Inventario>
 {
     
     [Header("Items")] 
-    [SerializeField] public InventarioItem[] itemsInventario;
+    [SerializeField] private InventarioItem[] itemsInventario;
     [SerializeField] private Personaje personaje;
     [SerializeField] private int numero_slots;
     
@@ -31,6 +31,7 @@ public class Inventario : Singleton<Inventario>
         {
             return;
         }   
+        ControladorDatosJuego.Instance.AgregarObjetoGuardado(itemAñadir,cantidad);
         //Verificacion por si acaso el item ya existe en el inventario
         List<int> indexes = VerificarExistencias(itemAñadir.ID);
 
@@ -154,6 +155,15 @@ public class Inventario : Singleton<Inventario>
             EliminarItem(index);
         }
 
+    }
+    
+    public void LimpiarInventario()
+    {
+        for (int i = 0; i < itemsInventario.Length; i++)
+        {
+            itemsInventario[i] = null;
+            InventarioUI.Instance.ItemEnInventario(null, 0, i);
+        }
     }
 
     #region Eventos

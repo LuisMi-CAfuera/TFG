@@ -21,8 +21,7 @@ public class InventarioItem : ScriptableObject
     public bool EsConsumible;
     public bool EsAcumulable;
     public int AcumulacionMax;
-
-     public int Cantidad;
+    public int Cantidad;
 
 
 

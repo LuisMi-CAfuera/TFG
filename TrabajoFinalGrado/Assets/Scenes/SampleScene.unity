@@ -75591,6 +75591,8 @@ MonoBehaviour:
     velocidad: 0
     porcentajeCritico: 0
     porcentajeBloqueo: 0
+    items: []
+  itemsGuardados: []
 --- !u!4 &1256474624
 Transform:
   m_ObjectHideFlags: 0
@@ -83612,6 +83614,10 @@ PrefabInstance:
     - target: {fileID: 1781290685847270860, guid: bad2df4ad8c06fa4b95540d25d0c325f, type: 3}
       propertyPath: m_Name
       value: PocionVida
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781290685847270863, guid: bad2df4ad8c06fa4b95540d25d0c325f, type: 3}
+      propertyPath: cantidadPorAgregar
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bad2df4ad8c06fa4b95540d25d0c325f, type: 3}

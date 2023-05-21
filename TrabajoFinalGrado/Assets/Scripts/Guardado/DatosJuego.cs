@@ -28,6 +28,10 @@ public class DatosJuego
     public float porcentajeCritico;
     public float porcentajeBloqueo;
     //inventario
+    public InventarioItem[] items;
     
+  
+
+
 
 }

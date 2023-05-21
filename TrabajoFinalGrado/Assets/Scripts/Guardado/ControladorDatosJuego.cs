@@ -5,13 +5,15 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using System.Linq;
 
-public class ControladorDatosJuego : MonoBehaviour
+public class ControladorDatosJuego : Singleton<ControladorDatosJuego>
 {
     public GameObject jugador;
 
     public string archivhoGuardado;
     public DatosJuego datosJuego = new DatosJuego();
+    public List<InventarioItem> itemsGuardados = new List<InventarioItem>();
 
     private void Awake()
     {
@@ -42,7 +44,7 @@ public class ControladorDatosJuego : MonoBehaviour
         {
             string contenido = File.ReadAllText(archivhoGuardado);
             datosJuego = JsonUtility.FromJson<DatosJuego>(contenido);
-            
+
             Debug.Log("Posicion Jugador: " + datosJuego.posicion);
             
             jugador.transform.position = datosJuego.posicion;
@@ -79,15 +81,30 @@ public class ControladorDatosJuego : MonoBehaviour
             jugador.GetComponent<Personaje>().stats.PorcentajeCritico = datosJuego.porcentajeCritico;
             //porcentajeBloqueo
             jugador.GetComponent<Personaje>().stats.PorcentajeBloqueo = datosJuego.porcentajeBloqueo;
-            
             UIManager.Instance.ActualizarPanelStats();
-            
             //inventario
             
+            Inventario.Instance.LimpiarInventario(); // Limpia el inventario antes de cargar los datos
+
+            
+            if (datosJuego.items != null)
+            {
+                foreach (InventarioItem item in datosJuego.items)
+                {
+                    
+                    if (item != null)
+                    {
+                        Debug.Log("Inventario cargado:"+item.Nombre+" Cantidad: "+item.Cantidad);
+                        Inventario.Instance.AñadirItem(item, item.Cantidad);
+                    }
+                }
+                
+            }
             
             
-
-
+            
+            
+            
         }
         else
         {
@@ -95,8 +112,30 @@ public class ControladorDatosJuego : MonoBehaviour
         }
     }
     
+    public void AgregarObjetoGuardado(InventarioItem objeto,int cantidad)
+    {
+        if(cantidad < objeto.AcumulacionMax)
+        {
+            objeto.Cantidad = cantidad;
+            itemsGuardados.Add(objeto);
+        }else if (cantidad > objeto.AcumulacionMax)
+        {
+            objeto.Cantidad = objeto.AcumulacionMax;
+            itemsGuardados.Add(objeto);
+            cantidad -= objeto.AcumulacionMax;
+        }
+        
+    }
+    
     private void GuardarDatos()
     {
+        if (Inventario.Instance == null)
+        {
+            Debug.LogError("No se ha encontrado la instancia de Inventario.");
+            return;
+        }
+
+        
         DatosJuego nuevoDatosJuego = new DatosJuego()
         {
             posicion = jugador.transform.position,
@@ -119,13 +158,14 @@ public class ControladorDatosJuego : MonoBehaviour
             velocidad = jugador.GetComponent<Personaje>().stats.Velocidad,
             porcentajeCritico = jugador.GetComponent<Personaje>().stats.PorcentajeCritico,
             porcentajeBloqueo = jugador.GetComponent<Personaje>().stats.PorcentajeBloqueo,
-            //inventario
-            
-            
-            
+            //Inventairio
+            items = itemsGuardados.ToArray(),
 
 
         };
+        
+        
+    
         
         string cadenaJson = JsonUtility.ToJson(nuevoDatosJuego);
         
@@ -133,4 +173,6 @@ public class ControladorDatosJuego : MonoBehaviour
         
         Debug.Log("Datos guardados");
     }
+    
+
 }
