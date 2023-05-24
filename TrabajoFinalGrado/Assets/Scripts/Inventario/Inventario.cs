@@ -181,6 +181,7 @@ public class Inventario : Singleton<Inventario>
             case TipoDeInteraccion.Equipar:
                 break;
             case TipoDeInteraccion.Borrar:
+                EliminarItem(index);
                 break;
         }
     }

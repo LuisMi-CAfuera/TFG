@@ -70,4 +70,12 @@ public class InventarioSlot : MonoBehaviour
             EventoSlotInteraccion?.Invoke(TipoDeInteraccion.Usar, Index);
         }
     }
+    
+    public void SlotBorrarItem()
+    {
+        if(Inventario.Instance.ItemsInventario[Index] != null)
+        {
+            EventoSlotInteraccion?.Invoke(TipoDeInteraccion.Borrar, Index);
+        }
+    }
 }

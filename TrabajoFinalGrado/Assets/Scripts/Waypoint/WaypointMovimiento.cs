@@ -59,7 +59,7 @@ public class WaypointMovimiento : MonoBehaviour
 
     private void ActualizarIndexMovimiento()
     {
-        //Esto sirve para que los NPCS de forma infinita
+        //Esto sirve para que los NPCS se muevan de forma infinita
         if(puntoActualIndex == _waypoint.Puntos.Length - 1)
         {
             puntoActualIndex = 0;

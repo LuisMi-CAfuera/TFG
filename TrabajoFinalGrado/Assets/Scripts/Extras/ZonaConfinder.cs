@@ -7,7 +7,7 @@ using UnityEngine;
 public class ZonaConfinder : MonoBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera camara;
-
+//Esta clase solo sirve para activar y desactivar la camara de la zona de confinder
 
     private void OnTriggerEnter2D(Collider2D col)
     {

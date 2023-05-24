@@ -77281,7 +77281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64d5c7ee8f554d34bb29c12814371e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velocidad: 10
+  _velocidad: 4
 --- !u!50 &1407810306
 Rigidbody2D:
   serializedVersion: 4
@@ -79360,7 +79360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntos:
   - {x: 1, y: 0, z: 0}
-  - {x: 11.031891, y: 0.019176304, z: 0}
+  - {x: 10.914616, y: 0.05268395, z: 0}
 --- !u!95 &1606202643
 Animator:
   serializedVersion: 5
@@ -80626,7 +80626,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1838620724}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 300458098}
+        m_TargetAssemblyTypeName: InventarioUI, Assembly-CSharp
+        m_MethodName: BorrarItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1838620724
 MonoBehaviour:
   m_ObjectHideFlags: 0

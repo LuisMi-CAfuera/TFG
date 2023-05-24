@@ -104,6 +104,14 @@ public class InventarioUI : Singleton<InventarioUI>
             SlotSeleccionado.SeleccionarSlot();
         }
     }
+    public void BorrarItem()
+    {
+        if(SlotSeleccionado != null)
+        {
+            SlotSeleccionado.SlotBorrarItem();
+            SlotSeleccionado.SeleccionarSlot();
+        }
+    }
     
     #region Evento
 
