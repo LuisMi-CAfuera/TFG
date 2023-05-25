@@ -38,7 +38,7 @@ public class ControladorDatosJuego : Singleton<ControladorDatosJuego>
     }
 
 
-    private void CargarDatos()
+    public void CargarDatos()
     {
         if (File.Exists(archivhoGuardado))
         {
@@ -112,10 +112,11 @@ public class ControladorDatosJuego : Singleton<ControladorDatosJuego>
     public void AgregarObjetoGuardado(InventarioItem objeto,int cantidad)
     {
         Debug.Log("Objeto: " + objeto.Nombre + " Cantidad: " + objeto.Cantidad);
+        objeto.Cantidad = cantidad;
         itemsGuardados.Add(objeto);
     }
     
-    private void GuardarDatos()
+    public void GuardarDatos()
     {
         if (Inventario.Instance == null)
         {
