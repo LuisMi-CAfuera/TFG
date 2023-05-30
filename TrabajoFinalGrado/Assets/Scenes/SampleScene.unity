@@ -64783,6 +64783,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &317674967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1149108440316552442, guid: a972766488d32cf47a442f69b48193b2, type: 3}
+  m_PrefabInstance: {fileID: 6013498796026239793}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &323339238
 GameObject:
   m_ObjectHideFlags: 0
@@ -70711,7 +70716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -30.900024, y: 927.6}
+  m_AnchoredPosition: {x: -30.899902, y: 927.6}
   m_SizeDelta: {x: 220.8113, y: 114.4791}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1027361998
@@ -84801,6 +84806,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2020764922085679012, guid: a972766488d32cf47a442f69b48193b2, type: 3}
   m_PrefabInstance: {fileID: 6013498796026239793}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &6013498796026239796
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317674967}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.625, y: 2.4375}
+    newSize: {x: 2.625, y: 2.4375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.625, y: 2.4375}
+  m_EdgeRadius: 0
 --- !u!224 &6054933141557806923
 RectTransform:
   m_ObjectHideFlags: 0
