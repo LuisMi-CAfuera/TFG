@@ -116,6 +116,7 @@ public class Inventario : Singleton<Inventario>
     private void EliminarItem(int index)
     {
         itemsInventario[index].Cantidad--;
+        ControladorDatosJuego.Instance.EliminarObjetoGuardado(index);
         
         if(itemsInventario[index].Cantidad <= 0)
         {

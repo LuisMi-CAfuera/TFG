@@ -116,6 +116,11 @@ public class ControladorDatosJuego : Singleton<ControladorDatosJuego>
         itemsGuardados.Add(objeto);
     }
     
+    public void EliminarObjetoGuardado(int index)
+    {
+        itemsGuardados[index].Cantidad--;
+    }
+    
     public void GuardarDatos()
     {
         if (Inventario.Instance == null)
