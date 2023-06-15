@@ -80952,7 +80952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NPCBotonInteraccion: {fileID: 1171462030}
-  dialogoNPC: {fileID: 11400000, guid: 51519df860be71e449711ce341732e8b, type: 2}
+  dialogoNPC: {fileID: 11400000, guid: 2b3a702568da0d748bb112cffafb4de7, type: 2}
 --- !u!61 &1719587966
 BoxCollider2D:
   m_ObjectHideFlags: 0
