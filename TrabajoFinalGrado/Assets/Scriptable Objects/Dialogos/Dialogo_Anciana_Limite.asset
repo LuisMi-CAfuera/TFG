@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a009c465882bd7479775c05ca4c61ba, type: 3}
+  m_Name: Dialogo_Anciana_Limite
+  m_EditorClassIdentifier: 
+  Nombre: Pedrita
+  imagen: {fileID: 21300000, guid: 9bb854bff578a9848bb5ab65bcacc7e8, type: 3}
+  ContieneInteraccionExtra: 0
+  interaccionExtra: 0
+  Saludo: "Eso es el limite aun esta en desarrollo pero os lo puede ense\xF1ar desde
+    la escena XD"
+  Conversacion: []
+  Despedida: jiji

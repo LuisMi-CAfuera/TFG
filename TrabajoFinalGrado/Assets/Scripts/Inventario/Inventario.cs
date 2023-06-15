@@ -157,6 +157,7 @@ public class Inventario : Singleton<Inventario>
         if (itemsInventario[index].UsarItem())
         {
             EliminarItem(index);
+            ControladorDatosJuego.Instance.EliminarObjetoGuardado(index);
         }
 
     }
